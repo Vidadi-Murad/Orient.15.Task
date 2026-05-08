@@ -5,7 +5,7 @@
 //  Created by Vidadi Muradzada on 08.05.26.
 
 
-//                                     FIRST TASK
+//                                         1 TASK
 //-----------------------------------------------
 
 /*
@@ -29,7 +29,7 @@ print("---------------------------------")
 
 
 
-//                                    SECOND TASK
+//                                         2 TASK
 //-----------------------------------------------
 /*
 import Foundation
@@ -55,15 +55,16 @@ for num in 1...30{
 
 
 
-//                                     THIRD TASK
+//                                         3 TASK
 
 
 import Foundation
 
 
 let cities = ["Baku", "Ganja", "Sumqayit", "Zaqatala"]
+let newCities: [String] = []
 
 
 for city in cities {
-    print(city  )
+    
 }
