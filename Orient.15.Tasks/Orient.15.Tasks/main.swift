@@ -54,17 +54,38 @@ for num in 1...30{
 
 
 
-
-//                                         3 TASK
-
-
+//                                         5 TASK
+//-----------------------------------------------
+/*
 import Foundation
 
+var name: String? = "Abbas"
+var age: Int? = nil
+var score: Double? = nil
 
-let cities = ["Baku", "Ganja", "Sumqayit", "Zaqatala"]
-let newCities: [String] = []
 
 
-for city in cities {
-    
+if let realName = name {
+    print("Salam, \(realName)")
+}else{
+    let realName2 = name ?? "Naməlum"
+    print("\(realName2)")
 }
+
+
+if let realAge = age{
+    print("Sənin yaşın: \(realAge)")
+}else{
+    let realAge2 = age ?? 0
+    print("\(realAge2)")
+}
+
+
+if let realScore = score {
+    print("Sənin nəticən: \(realScore)")
+} else{
+    let realScore2 = score ?? 0.0
+    print("\(realScore2)")
+}
+*/
+//-----------------------------------------------
