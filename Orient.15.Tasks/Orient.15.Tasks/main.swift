@@ -7,14 +7,14 @@
 
 //                                     FIRST TASK
 //-----------------------------------------------
-// Library
+
 /*
 import Foundation
 
-// Variable
+
 var sumOfNums: Int = 0
 
-// Loop
+
 for i in 1...50{
   sumOfNums = sumOfNums + i
   continue
@@ -30,7 +30,8 @@ print("---------------------------------")
 
 
 //                                    SECOND TASK
-
+//-----------------------------------------------
+/*
 import Foundation
 
 var text1: String = "Fizz"
@@ -46,4 +47,23 @@ for num in 1...30{
     else if num % 5 == 0 {
         print("\(num) Buzz")
     }
+}
+ */
+//-----------------------------------------------
+
+
+
+
+
+//                                     THIRD TASK
+
+
+import Foundation
+
+
+let cities = ["Baku", "Ganja", "Sumqayit", "Zaqatala"]
+
+
+for city in cities {
+    print(city  )
 }
