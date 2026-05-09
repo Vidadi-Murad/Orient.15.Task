@@ -165,3 +165,19 @@ ageControl(age: 10)
 
 
 //                                         8 TASK
+//-----------------------------------------------
+/*
+var name: String? = "Vidadi"
+var surname: String? = "Muradzada"
+var phone: String? = nil
+
+
+if let realName = name,
+   let realSurname = surname,
+   let realPhone = phone {
+    print("You're name is \(realName), surname is \(realSurname), phone number is \(realPhone)")
+}else {
+    print("NOT INFORMATION")
+}
+ */
+//-----------------------------------------------
