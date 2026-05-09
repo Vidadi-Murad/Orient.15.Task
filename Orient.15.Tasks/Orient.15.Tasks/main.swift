@@ -127,3 +127,14 @@ func checkLogin(username: String?, password: String?) {
 
 checkLogin(username: "Vidadi", password: nil)
 */
+
+
+
+
+
+
+//                                         6 TASK
+
+import Foundation
+
+
