@@ -53,6 +53,32 @@ for num in 1...30{
 
 
 
+//                                         4 TASK
+
+import Foundation
+
+var counter: Int = 0
+var number:Int = 3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
