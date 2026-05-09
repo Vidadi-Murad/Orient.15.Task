@@ -54,6 +54,10 @@ for num in 1...30{
 
 
 
+
+
+
+
 //                                         5 TASK
 //-----------------------------------------------
 /*
@@ -95,6 +99,8 @@ if let realScore = score {
 
 
 //                                         6 TASK
+//-----------------------------------------------
+
 
 //             IF LET VERSION
 /*
@@ -127,14 +133,29 @@ func checkLogin(username: String?, password: String?) {
 
 checkLogin(username: "Vidadi", password: nil)
 */
+//-----------------------------------------------
 
 
 
 
 
 
-//                                         6 TASK
-
+//                                         7 TASK
+//-----------------------------------------------
+/*
 import Foundation
 
+func ageControl(age: Int?) {
+    guard let checkAge = age else{
+        return
+    }
+    guard checkAge >= 18 else {
+        print("Giriş Qadağandır")
+        return
+    }
+    print("Xoş Gəlmişsiniz...")
+}
 
+ageControl(age: 10)
+*/
+//-----------------------------------------------
