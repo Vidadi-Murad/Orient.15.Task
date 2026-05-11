@@ -180,7 +180,35 @@ if let realName = name,
 
 
 
-
-
-
 //                                         9 TASK
+// Variables
+//-----------------------------------------------
+/*
+let realPin: Int = 1234
+var tryChance: Int = 3
+print("Sizin 3 şansınız var...")
+repeat{
+    print("Pin daxil edin:")
+    let userPin = Int(readLine()!)
+    if realPin == userPin {
+        print("Əla!!!")
+        break
+    }else{
+        print("Uğursuz cəhd :(")
+        print("Sizin \(tryChance - 1) şansınız qaldı!")
+        tryChance = tryChance - 1
+        if tryChance == 0 {
+            print("Şansınız bitdi")
+            break
+        }
+    }
+}while( tryChance > 0)
+ */
+//-----------------------------------------------
+
+
+
+
+//                                         10 TASK
+
+
