@@ -211,7 +211,7 @@ repeat{
 
 //                                         12 TASK
 //-----------------------------------------------
-
+/*
 func isPrime(num: Int) -> Bool? {
     if num < 0 {
         return nil
@@ -236,4 +236,29 @@ if let result = isPrime(num: 17) {
         print("Bu sadə ədəd deyil")
     }
 }
+*/
+//-----------------------------------------------
+
+
+//                                         10 TASK
+//-----------------------------------------------
+
+func convertAndDouble(name:String?){
+    if let realName = name {
+        for i in realName {
+            if i > "0" && i < "9" {
+                let newInt = Int(realName) ?? 0
+                print(newInt * 2)
+                break
+            }else {
+                print("Rəqəm Deyil!")
+                break
+            }
+        }
+    }else{
+        print("ERROR!!!!!")
+    }
+}
+convertAndDouble(name: "Vidadi012")
+
 //-----------------------------------------------
