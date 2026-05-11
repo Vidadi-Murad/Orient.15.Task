@@ -242,7 +242,7 @@ if let result = isPrime(num: 17) {
 
 //                                         10 TASK
 //-----------------------------------------------
-
+/*
 func convertAndDouble(name:String?){
     if let realName = name {
         for i in realName {
@@ -260,5 +260,10 @@ func convertAndDouble(name:String?){
     }
 }
 convertAndDouble(name: "Vidadi012")
-
+*/
 //-----------------------------------------------
+
+
+
+
+func digitSum
