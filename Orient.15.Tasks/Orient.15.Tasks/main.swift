@@ -51,6 +51,8 @@ for num in 1...30{
  */
 //-----------------------------------------------
 
+//                                         2 TASK
+
 
 
 
@@ -208,7 +210,27 @@ repeat{
 
 
 
+func isPrime(num: Int) -> Bool? {
+    if num < 0 {
+        return nil
+    }
+    
+    if num < 2 {
+        return false
+    }
+    for i in 2..<num {
+        if num % i == 0 {
+            return false
+        }
+    }
+    
+    return true
+}
 
-//                                         10 TASK
-
-
+if let result = isPrime(num: 17) {
+    if result {
+        print("Bu sadə ədəddir")
+    } else {
+        print("Bu sadə ədəd deyil")
+    }
+}
