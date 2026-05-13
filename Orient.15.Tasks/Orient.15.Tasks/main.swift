@@ -51,7 +51,6 @@ for num in 1...30{
  */
 //-----------------------------------------------
 
-//                                         2 TASK
 
 
 
@@ -266,4 +265,31 @@ convertAndDouble(name: "Vidadi012")
 
 
 
-func digitSum
+
+//                                         13 TASK
+//-----------------------------------------------
+/*
+func isPalindrome(word:String?) -> Bool {
+    guard let newWord = word else {
+        print("Error!!!")
+        return false
+    }
+    var reservedWord : String = ""
+    for i in newWord {
+        reservedWord = String(i) + reservedWord
+    }
+    if newWord == reservedWord {
+        print("Bəli bu söz plaindromdur!")
+    }else {
+        print("Xeyr bu söz palindrome deyil!")
+    }
+   return true
+}
+print("-----------------------------------")
+let result = isPalindrome(word: "radar")
+print("-----------------------------------")
+ */
+//-----------------------------------------------
+
+
+
