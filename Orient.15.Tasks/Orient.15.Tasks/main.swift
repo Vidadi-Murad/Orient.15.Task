@@ -293,3 +293,51 @@ print("-----------------------------------")
 
 
 
+
+//                                         14 TASK
+//-----------------------------------------------
+/*
+func digitSum(number:Int?) -> Bool? {
+    guard let newNum = number else{
+        print("Error!!!")
+        return false
+    }
+    if newNum < 0 {
+        return nil
+    }
+    else{
+        var sumofNums: Int = 0
+        var newNum2: Int = newNum
+        while newNum2 > 0 {
+            sumofNums = sumofNums + ( newNum2  % 10 )
+            newNum2 = newNum2 / 10
+        }
+        print("-----------------------------------")
+        print("The answer is: \(sumofNums)")
+        print("-----------------------------------")
+
+    }
+    return true
+}
+
+let result = digitSum(number: 898)
+ */
+//-----------------------------------------------
+
+
+//                                         11 TASK
+//-----------------------------------------------
+/*
+var a: Int = 0
+var b: Int = 1
+
+while  b < 100 {
+    print("\(a),\(b)")
+    a = a + b
+    b = a + b
+}
+print("****")
+print("SON")
+print("****")
+*/
+//-----------------------------------------------
