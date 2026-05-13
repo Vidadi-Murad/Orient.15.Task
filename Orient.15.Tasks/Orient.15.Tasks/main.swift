@@ -1,4 +1,4 @@
-//
+
 //  main.swift
 //  Orient.15.Tasks
 //
@@ -208,6 +208,61 @@ repeat{
 //-----------------------------------------------
 
 
+
+
+
+//                                         10 TASK
+//-----------------------------------------------
+/*
+func convertAndDouble(name:String?){
+    if let realName = name {
+        for i in realName {
+            if i > "0" && i < "9" {
+                let newInt = Int(realName) ?? 0
+                print(newInt * 2)
+                break
+            }else {
+                print("Rəqəm Deyil!")
+                break
+            }
+        }
+    }else{
+        print("ERROR!!!!!")
+    }
+}
+convertAndDouble(name: "Vidadi012")
+*/
+//-----------------------------------------------
+
+
+
+
+
+
+
+
+
+//                                         11 TASK
+//-----------------------------------------------
+/*
+var a: Int = 0
+var b: Int = 1
+
+while  b < 100 {
+    print("\(a),\(b)")
+    a = a + b
+    b = a + b
+}
+print("****")
+print("SON")
+print("****")
+*/
+//-----------------------------------------------
+
+
+
+
+
 //                                         12 TASK
 //-----------------------------------------------
 /*
@@ -235,30 +290,6 @@ if let result = isPrime(num: 17) {
         print("Bu sadə ədəd deyil")
     }
 }
-*/
-//-----------------------------------------------
-
-
-//                                         10 TASK
-//-----------------------------------------------
-/*
-func convertAndDouble(name:String?){
-    if let realName = name {
-        for i in realName {
-            if i > "0" && i < "9" {
-                let newInt = Int(realName) ?? 0
-                print(newInt * 2)
-                break
-            }else {
-                print("Rəqəm Deyil!")
-                break
-            }
-        }
-    }else{
-        print("ERROR!!!!!")
-    }
-}
-convertAndDouble(name: "Vidadi012")
 */
 //-----------------------------------------------
 
@@ -325,19 +356,6 @@ let result = digitSum(number: 898)
 //-----------------------------------------------
 
 
-//                                         11 TASK
-//-----------------------------------------------
-/*
-var a: Int = 0
-var b: Int = 1
 
-while  b < 100 {
-    print("\(a),\(b)")
-    a = a + b
-    b = a + b
-}
-print("****")
-print("SON")
-print("****")
-*/
-//-----------------------------------------------
+
+
